@@ -3,7 +3,6 @@ container:
   image: framgiaciteam/laravel-workspace:latest
 
 task:
-  config_script: php artisan key:generate
   composer_install_script: composer install
   echo_script: echo xin chaomnnnn
   
