@@ -1,0 +1,9 @@
+# global default
+container:
+  image: ramgiaciteam/laravel-workspace:latest
+
+task:
+  config_script: php artisan key:generate
+  composer_install_script: composer install
+  echo_script: echo xin chaomnnnn
+  
